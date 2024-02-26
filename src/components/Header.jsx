@@ -46,6 +46,11 @@ export default function Header() {
               About
             </li>
           </Link>
+          <Link to="/login">
+            <li className="hidden sm:inline text-slate-700 hover:underline">
+              Login
+            </li>
+          </Link>
           <Link to="/profile">
             {currentUser ? (
               <img
